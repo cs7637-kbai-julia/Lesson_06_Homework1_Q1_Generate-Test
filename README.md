@@ -70,4 +70,5 @@ parent   Planet        shuttle     Ship
 .1->.3 Rey Kylo           ->              Snoke      illegal
 .3->.4                    ->     Rey Kylo Snoke      REACHED GOAL
 .3->.5 Rey                ->         Kylo Snoke      loop
-                    ---- END ----```
+                    ---- END ----
+```
