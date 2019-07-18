@@ -29,7 +29,8 @@ Start state: Quesh(Ray, Kylo, Snoke, shuttle), Ship()
 End state: Quesh(), Ship(Ray, Kylo, Snoke, shuttle)
 
 ### Output
-```parent   Planet        shuttle     Ship
+```
+parent   Planet        shuttle     Ship
 ====== ==============  =======  =================
        --------------  Step:0   -----------------
   ->.1 Rey Kylo Snoke     <-                         VALID
