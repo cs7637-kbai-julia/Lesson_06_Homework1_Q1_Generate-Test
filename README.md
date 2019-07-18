@@ -29,7 +29,7 @@ Start state: Quesh(Ray, Kylo, Snoke, shuttle), Ship()
 End state: Quesh(), Ship(Ray, Kylo, Snoke, shuttle)
 
 ### Output
-`parent   Planet        shuttle     Ship
+```parent   Planet        shuttle     Ship
 ====== ==============  =======  =================
        --------------  Step:0   -----------------
   ->.1 Rey Kylo Snoke     <-                         VALID
@@ -69,4 +69,4 @@ End state: Quesh(), Ship(Ray, Kylo, Snoke, shuttle)
 .1->.3 Rey Kylo           ->              Snoke      illegal
 .3->.4                    ->     Rey Kylo Snoke      REACHED GOAL
 .3->.5 Rey                ->         Kylo Snoke      loop
-                    ---- END ----`
+                    ---- END ----```
